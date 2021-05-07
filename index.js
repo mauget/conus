@@ -1,5 +1,5 @@
 import pointInPolygon from 'point-in-polygon';
-import borderContinentalUS from './src/conUS.js';
+import borderContinentalUS from './src/conus.js';
 
 [
   [40, -100],
