@@ -20,7 +20,7 @@ Location [45,-120] is in Continental US
 ✨  Done in 0.26s.
 ```
 
-The `consu.js` file contains a coarse description of the US border as an
+The `conus.js` file contains a coarse description of the US border as an
 array of lattitude/longitude points.
 
 Each element is a two-item numeric ordred array containing the a point on the border.
