@@ -41,7 +41,7 @@ Install the pre-reuqs and execute from a command-line:
 ### Install
 From the desired parent directory location, issue:
 
-`git clone https://github.com/mauget/conUS`
+`git clone https://github.com/mauget/conus`
 
 ### Run
 From the project root directory, issue:
