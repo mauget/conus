@@ -1,4 +1,14 @@
-export default conUS = [
+/**
+ * conUS is an array of points describing a poloygon surrounding the border of the
+ * continentail United States. Each point is an ordered numeric latitude - longitude pair,
+ * each contained in  a two-element array. E.g. [ 35.611, -78.772 ]
+ * The border polygon granularity is a compromise beteween granularity  and hit-testing a
+ * point within the polygon. The first and last elements of the polygon are closure of
+ * the final polygon line.
+ *
+ * @type {number[][]}
+ */
+export const conUS = [
   [49.32580446,-126.0751504],
   [48.76133906,-88.49335286],
   [45.04579542,-81.72339233],
@@ -25,4 +35,4 @@ export default conUS = [
   [42.85513415,-125.8257946],
   [48.64255653,-125.8319398]
 ];
-// export default conUS;
+export default conUS;

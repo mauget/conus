@@ -1,5 +1,5 @@
 {
-  "name": "conUS",
+  "name": "conus",
   "version": "1.0.0",
   "description": "Point in polygon - location in continental US",
   "main": "index.js",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "type": "module",
   "private": true,
-  "directories": {
-    "lib": "."
-  },
   "dependencies": {
     "point-in-polygon": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node ./index.js"
   }
 }
