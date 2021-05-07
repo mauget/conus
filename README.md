@@ -43,6 +43,10 @@ From the desired parent directory location, issue:
 
 `git clone https://github.com/mauget/conus`
 
+or
+
+`git clone git@github.com:mauget/conus.git`
+
 ### Run
 From the project root directory, issue:
 
