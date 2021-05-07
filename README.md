@@ -1,31 +1,11 @@
 # conus
 
-A small node.js demonstration that determines if a given point falls
-within the Continental United States. 
+A small node.js demonstration that quickly determines if a given [lat, lon] point falls
+within the Continental United States.
 
-## Try It
+### Demo
 
-Install the pre-reuqs and execute from a command-line:
-
-### Pre-Reqs
-+ yarn
-+ node.js
-
-### Install
-
-From the desired parent directory location, issue:
-
-`git clone mauget/conus1`
-
-### Run
-From the project root directory, issue:
-
-`git start`
-
-### Result
-
-The demo displays:
-
+The demo tests a list of point, displaying:
 ```text
 yarn run v1.22.10
 $ node ./index.js
@@ -40,15 +20,35 @@ Location [45,-120] is in Continental US
 ✨  Done in 0.26s.
 ```
 
-The `consu.js` file contains a coarse description of the US border as an 
+The `consu.js` file contains a coarse description of the US border as an
 array of lattitude/longitude points.
 
 Each element is a two-item numeric ordred array containing the a point on the border.
 E.g. [31.15836483,-80.47891942]. The first and final points anchor the final segment
 of the border polygon.
 
-### The Data
+## Coarse Border Polygon
+![geoData/nd-border-polygon.png](geoData/conus-coarse-border.png)
 
+
+## Try It
+Install the pre-reuqs and execute from a command-line:
+
+### Pre-Reqs
++ yarn
++ node.js
+
+### Install
+From the desired parent directory location, issue:
+
+`git clone mauget/conus1`
+
+### Run
+From the project root directory, issue:
+
+`git start`
+
+### The Data
 We created a coarse-grained data array by using Google Earth and a text
 editor.
 
@@ -74,8 +74,6 @@ Now you have a KML file that you an open in a text editor.
 Now you have the border polygon in a form that you can edit into a 
 JavaScfript file like `conus.csv`.
 
-
 ### Dependency
-
 Each hit-test is carried out by an npm module defined in GitHub
 project `substack/point-in-polygon` located at https://github.com/substack/point-in-polygon .
