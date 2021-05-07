@@ -1,0 +1,16 @@
+{
+  "name": "conUS",
+  "version": "1.0.0",
+  "description": "Point in polygon - location in continental US",
+  "main": "index.js",
+  "author": "Lou Mauget",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "point-in-polygon": "^1.1.0"
+  }
+}
