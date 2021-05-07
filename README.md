@@ -71,11 +71,11 @@ Now you have a KML file that you an open in a text editor.
 1. Exchange the remaining pair of columns from lon/lat order to lat/lon order
 1. Save as CSV
 
-Now you have teh border polygon in a form that you can edit into a 
-JavaScfript file, such as `conus.csv`.
+Now you have the border polygon in a form that you can edit into a 
+JavaScfript file like `conus.csv`.
 
 
 ### Dependency
 
-Each hit-test is carried about by a the npm module defined in GitHub
+Each hit-test is carried out by an npm module defined in GitHub
 project `substack/point-in-polygon` located at https://github.com/substack/point-in-polygon .
