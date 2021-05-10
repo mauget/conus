@@ -1,8 +1,8 @@
 /**
- * conus is an array of points describing a poloygon surrounding the border of the
- * continentail United States. Each point is an ordered numeric latitude - longitude pair,
+ * conus is an array of points describing a polygon surrounding the border of the
+ * continental United States. Each point is an ordered numeric latitude - longitude pair,
  * each contained in  a two-element array. E.g. [ 35.611, -78.772 ]
- * The border polygon granularity is a compromise beteween granularity  and hit-testing a
+ * The border polygon granularity is a compromise between granularity  and hit-testing a
  * point within the polygon. The first and last elements of the polygon are closure of
  * the final polygon line.
  *
